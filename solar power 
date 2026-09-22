@@ -1,0 +1,13 @@
+# Solar Power Calculator
+
+area = float(input("Enter solar panel area (m²): "))
+irradiance = float(input("Enter solar irradiance (W/m²): "))
+efficiency = float(input("Enter panel efficiency (%): "))
+
+power = area * irradiance * (efficiency / 100)
+
+print("\n----- SOLAR POWER CALCULATION -----")
+print("Panel Area:", area, "m²")
+print("Solar Irradiance:", irradiance, "W/m²")
+print("Efficiency:", efficiency, "%")
+print("Power Generated:", round(power, 2), "W")
