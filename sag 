@@ -1,0 +1,20 @@
+# Voltage Sag Calculation
+
+V = float(input("Enter supply voltage (V): "))
+Zs = float(input("Enter source impedance (ohm): "))
+Zf = float(input("Enter fault impedance (ohm): "))
+
+# Fault current
+If = V / (Zs + Zf)
+
+# Voltage during fault
+Vfault = If * Zf
+
+# Voltage sag percentage
+sag = ((V - Vfault) / V) * 100
+
+print("\n----- VOLTAGE SAG CALCULATION -----")
+print("Supply Voltage:", V, "V")
+print("Fault Current:", round(If, 2), "A")
+print("Voltage During Fault:", round(Vfault, 2), "V")
+print("Voltage Sag:", round(sag, 2), "%")
