@@ -1,0 +1,24 @@
+# Corona Effect Calculation
+
+import math
+
+V = float(input("Enter operating voltage (kV): "))
+r = float(input("Enter conductor radius (cm): "))
+D = float(input("Enter spacing between conductors (cm): "))
+
+# Air density factor
+delta = 1
+
+# Peek's formula for disruptive critical voltage
+Vc = 21.1 * delta * r * math.log(D / r)
+
+print("\n----- CORONA EFFECT CALCULATION -----")
+print("Operating Voltage:", V, "kV")
+print("Conductor Radius:", r, "cm")
+print("Conductor Spacing:", D, "cm")
+print("Disruptive Critical Voltage:", round(Vc, 2), "kV")
+
+if V > Vc:
+    print("Result: Corona effect occurs.")
+else:
+    print("Result: Corona effect does not occur.")
