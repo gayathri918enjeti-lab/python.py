@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Electrical Components</title>
+</head>
+
+<body>
+
+<h2>Electrical Components Information</h2>
+
+<h3>1. Resistor</h3>
+<p>Resistor limits the flow of electric current.</p>
+
+<h3>2. Capacitor</h3>
+<p>Capacitor stores electrical energy in an electric field.</p>
+
+<h3>3. Inductor</h3>
+<p>Inductor stores energy in a magnetic field.</p>
+
+<h3>4. Diode</h3>
+<p>Diode allows current to flow mainly in one direction.</p>
+
+<h3>5. Transformer</h3>
+<p>Transformer increases or decreases AC voltage.</p>
+
+<h3>6. Transistor</h3>
+<p>Transistor is used for switching and amplification.</p>
+
+</body>
+</html>
+Yes — here is a small HTML project for Electrical Components Information that you can directly copy into GitHub.
+File name: electrical_components.html
+HTML
+You can copy → create a new file in GitHub → paste → Commit changes.
