@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Power Factor Calculator</title>
+</head>
+
+<body>
+
+<h2>Power Factor Calculator</h2>
+
+<input id="p" type="number" placeholder="Real Power (W)">
+<input id="s" type="number" placeholder="Apparent Power (VA)">
+
+<button onclick="calc()">Calculate</button>
+
+<p id="result"></p>
+
+<script>
+function calc() {
+    let P = Number(document.getElementById("p").value);
+    let S = Number(document.getElementById("s").value);
+
+    let PF = P / S;
+
+    document.getElementById("result").innerHTML =
+        "Power Factor = " + PF.toFixed(2);
+}
+</script>
+
+</body>
+</html>
+Sure — here is a small Power Factor Calculator HTML code you can directly paste into GitHub:
+HTML
+File name: power_factor.html
