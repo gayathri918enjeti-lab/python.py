@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ohm's Law Calculator</title>
+</head>
+
+<body>
+
+<h2>Ohm's Law Calculator</h2>
+
+<input id="v" type="number" placeholder="Voltage (V)">
+<input id="r" type="number" placeholder="Resistance (Ω)">
+
+<button onclick="calc()">Calculate</button>
+
+<p id="result"></p>
+
+<script>
+function calc() {
+    let V = Number(document.getElementById("v").value);
+    let R = Number(document.getElementById("r").value);
+
+    let I = V / R;
+
+    document.getElementById("result").innerHTML =
+        "Current = " + I.toFixed(2) + " A";
+}
+</script>
+
+</body>
+</html>
+Yes — here is a small Ohm's Law Calculator HTML code for GitHub:
+HTML
+File name: ohms_law.html
+Formula used: I = V / R.
