@@ -1,0 +1,20 @@
+!DOCTYPE html>
+<html>
+<head>
+    <title>Battery Information</title>
+</head>
+
+<body>
+
+<h2>🔋 Battery Information</h2>
+
+<h3>What is a Battery?</h3>
+<p>
+A battery is a device that converts chemical energy into electrical energy.
+</p>
+
+<h3>Types of Batteries</h3>
+
+<ul>
+    <li>Lead-Acid Battery</li>
+    <li>Lithium-Ion Battery</li>
