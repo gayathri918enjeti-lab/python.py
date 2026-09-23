@@ -1,0 +1,16 @@
+function calculate() {
+    let output = Number(document.getElementById("output").value);
+    let input = Number(document.getElementById("input").value);
+
+    let efficiency = (output / input) * 100;
+
+    document.getElementById("result").innerHTML =
+        "Transformer Efficiency = " + efficiency.toFixed(2) + "%";
+}
+</script>
+
+</body>
+</html>
+Sure. Here is a small Transformer Efficiency Calculator in HTML for your GitHub project.
+File name: transformer_efficiency.html
+HTML
